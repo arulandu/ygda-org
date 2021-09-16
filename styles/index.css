@@ -1,0 +1,30 @@
+body {
+	/* NOTE removed to avoid visual issues */
+	white-space: normal;
+
+	/* for aesthetics */
+	padding: 32px;
+}
+
+.page-title {
+	text-align: center;
+}
+
+/* color links like Notion.  Not sure why this isn't exported properly. */
+:not(.image) > a[href] {
+	text-decoration: none;
+	border-bottom: 0.05em solid;
+	border-color: rgba(55, 53, 47, 0.4);
+	opacity: 0.7;
+}
+
+.column-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	column-gap: 2em;
+}
+
+/* remove padding since it's covered by column-gap */
+.column {
+	padding: 0;
+}
