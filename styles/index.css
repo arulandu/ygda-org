@@ -6,8 +6,14 @@ body {
 	padding: 32px;
 }
 
-.page-title {
-	text-align: center;
+.hero {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(325px, 4fr));
+	gap: 2em;
+}
+
+.hero > * {
+	margin: 0;
 }
 
 /* color links like Notion.  Not sure why this isn't exported properly. */
