@@ -4,8 +4,6 @@ body {
 
 	/* for aesthetics */
 	padding: 32px;
-
-	animation: 1s ease-out 0s 1 fadeIn;
 }
 
 main {
@@ -24,6 +22,10 @@ main {
 		opacity: 1;
 		transform: translateY(0);
 	}
+}
+
+.home {
+	animation: 1s ease-out 0s 1 fadeIn;
 }
 
 .hero {
@@ -83,7 +85,7 @@ main {
 .topnav {
 	/*overflow: hidden;*/
 	margin: -10vh;
-	margin-left: 65vw;
+	margin-left: 62vw;
 	position: fixed;
 	background:rgb(255, 255, 255, 100%);
   }
