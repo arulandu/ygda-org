@@ -116,6 +116,10 @@ figcaption {
 	margin-left: 95;
 }
 
+.announcement-text {
+	margin-left: 130;
+	margin-top: -110;
+}
 .pic-caption{
 	margin-left: 80;
 }
@@ -132,7 +136,7 @@ hr {
 	background: transparent;
 	display: block;
 	width: 100%;
-	height: 1px;
+	height: 30px;
 	visibility: visible;
 	border: none;
 	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
@@ -155,6 +159,14 @@ img {
 
 .collection-content {
 	font-size: 0.875rem;
+}
+
+.row-list {
+	display: flex;
+}
+
+.row {
+	padding: 0 0em;
 }
 
 .column-list {
@@ -399,7 +411,7 @@ p {
 .header-logo-image {
 	position: fixed;
 
-	margin: -12.5vh 2vw;
+	margin: -12vh 2vw;
 	border: none;
 	border-radius: 0;
 }
@@ -413,6 +425,12 @@ p {
 	border-radius: 0;
 }
 
+.announcement-profile-pic {
+	border: none;
+	margin: 0 0;
+	padding: 0;
+	border-radius: 0;
+}
 .image {
 	border: none;
 	margin: 1.5em 0;

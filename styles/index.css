@@ -65,6 +65,25 @@ main {
 	opacity: 1;
 }
 
+:not(.announcement-profile-pic) > a[href] {
+	text-decoration: none;
+	border-bottom: 0.05em solid;
+	border-color: rgba(55, 53, 47, 0.4);
+	opacity: 0.7;
+	transition: all 0.3s;
+}
+
+:not(.announcement-profile-pic) > a[href]:hover {
+	border-color: rgba(5, 3, 7, 0.8);
+	opacity: 1;
+}
+
+.row-list {
+	display: grid;
+	grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
+	row-gap: 4em;
+}
+
 .column-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
