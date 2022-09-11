@@ -81,16 +81,16 @@ main {
 }
 
 .topnav {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	margin: -10vh;
 	margin-left: 65vw;
 	position: fixed;
-	background:rgb(255, 255, 255);
+	background:rgb(255, 255, 255, 100%);
   }
   
   .topnav a {
 	float: left;
-	color: rgb(55, 53, 47);
+	color: rgb(55, 53, 47, 100%);
 	text-align: center;
 	padding: 18px 20px;
 	text-decoration: none;
@@ -104,6 +104,6 @@ main {
   }
   
   .topnav a.active {
-	background-color: rgb(55, 53, 47);
+	background-color: rgb(55, 53, 47, 100%);
 	color: white;
   }

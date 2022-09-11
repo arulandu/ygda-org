@@ -35,6 +35,7 @@ body {
 	height: 10vh;
 	background: rgba(255, 255, 255, 80%);
 	position: fixed;
+	z-index: 100;
 }
 
 .header-title-temp{
