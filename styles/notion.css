@@ -148,20 +148,24 @@ img {
 
 .column-list {
 	display: flex;
-	justify-content: space-between;
+	justify-items: center;
 }
 
 .column {
 	padding: 0 1em;
 }
 
-.column:first-child {
+.projects-list {
+	display: flex;
+}
+
+/*.column:first-child {
 	padding-left: 0;
 }
 
 .column:last-child {
 	padding-right: 0;
-}
+}*/
 
 .table_of_contents-item {
 	display: block;
