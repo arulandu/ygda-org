@@ -33,7 +33,7 @@ body {
 .fixed-header{
 	text-align: center;
 	margin: -10vh -10vw;
-	width: 100%;
+	width: 95%;
 	height: 15vh;
 	background: rgba(255, 255, 255, 80%);
 	position: fixed;
@@ -41,7 +41,7 @@ body {
 }
 
 .header-title-temp{
-	margin: 2% 0%;
+	margin: 2% -10%;
 }
 
 
