@@ -394,6 +394,14 @@ p {
 	margin-bottom: 0.5em;
 }
 
+.header-logo-image {
+	position: fixed;
+
+	margin: -10vh 2vw;
+	border: none;
+	border-radius: 0;
+}
+
 .logo-image {
 	position: relative;
 	left: 125;
