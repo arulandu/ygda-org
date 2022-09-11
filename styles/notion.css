@@ -41,7 +41,7 @@ body {
 }
 
 .header-title-temp{
-	margin: 2% 600;
+	margin: 2% 0%;
 }
 
 
@@ -399,7 +399,7 @@ p {
 .header-logo-image {
 	position: fixed;
 
-	margin: -13.5vh 2vw;
+	margin: -12.5vh 2vw;
 	border: none;
 	border-radius: 0;
 }
