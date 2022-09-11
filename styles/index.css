@@ -82,9 +82,10 @@ main {
 
 .topnav {
 	overflow: hidden;
-	margin-left: 65%;
+	margin: -10vh 0vw;
+
+	margin-left: 800;
 	position: fixed;
-	top: 0%;
   }
   
   .topnav a {

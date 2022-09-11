@@ -34,7 +34,6 @@ body {
 	width: 100%;
 	height: 10vh;
 	background: rgba(255, 255, 255, 80%);
-	/*background: rgba(186, 230, 255, 30%);*/
 	position: fixed;
 }
 
@@ -112,6 +111,10 @@ figcaption {
 	font-size: 85%;
 	margin-top: 0.5em;
 	margin-left: 95;
+}
+
+.pic-caption{
+	margin-left: 80;
 }
 
 mark {
