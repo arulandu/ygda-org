@@ -84,7 +84,7 @@ main {
 
 .topnav {
 	/*overflow: hidden;*/
-	margin: -10vh;
+	top: 0;
 	margin-left: 62vw;
 	position: fixed;
 	background:rgb(255, 255, 255, 100%);
