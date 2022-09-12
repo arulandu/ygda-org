@@ -78,6 +78,11 @@ main {
 	opacity: 1;
 }
 
+.column-text {
+	display: table-caption;
+  	caption-side: bottom;
+}
+
 .row-list {
 	display: grid;
 	grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
