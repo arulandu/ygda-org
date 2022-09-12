@@ -11,14 +11,16 @@ html {
 
 html,
 body {
+	margin-top: 200px;
 	margin: 0;
 	padding: 0;
 }
 
 @media only screen {
 	body {
+		overflow-y:scroll;
 		margin: 2em auto;
-		max-width: 900px;
+		max-width: 1150px;
 		color: rgb(55, 53, 47);
 	}
 }
@@ -27,6 +29,21 @@ body {
 	line-height: 1.5;
 	white-space: pre-wrap;
 }
+
+.fixed-header{
+	text-align: center;
+	margin: -10vh -10vw;
+	width: 97%;
+	height: 15vh;
+	background: rgba(255, 255, 255, 80%);
+	position: fixed;
+	z-index: 100;
+}
+
+.header-title-temp{
+	margin: 2% 43%;
+}
+
 
 a,
 a.visited {
@@ -41,7 +58,8 @@ a.visited {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	letter-spacing: -0.01em;
 	line-height: 1.2;
 	font-weight: 600;
@@ -49,25 +67,29 @@ h3 {
 }
 
 .page-title {
-	font-size: 2.5rem;
+	font-size: 1.75rem;
 	font-weight: 700;
 	margin-top: 0;
 	margin-bottom: 0.75em;
 }
 
 h1 {
-	font-size: 1.875rem;
+	font-size: 2rem;
 	margin-top: 1.875rem;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	margin-top: 1.5rem;
 }
 
 h3 {
 	font-size: 1.25rem;
 	margin-top: 1.25rem;
+}
+
+h4 {
+	font-size: 4rem;
 }
 
 .source {
@@ -91,6 +113,15 @@ figcaption {
 	opacity: 0.5;
 	font-size: 85%;
 	margin-top: 0.5em;
+	margin-left: 95;
+}
+
+.announcement-text {
+	margin-left: 130;
+	margin-top: -110;
+}
+.pic-caption{
+	margin-left: 80;
 }
 
 mark {
@@ -105,7 +136,7 @@ hr {
 	background: transparent;
 	display: block;
 	width: 100%;
-	height: 1px;
+	height: 30px;
 	visibility: visible;
 	border: none;
 	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
@@ -130,22 +161,35 @@ img {
 	font-size: 0.875rem;
 }
 
+.row-list {
+	display: flex;
+}
+
+.row {
+	padding: 0 0em;
+}
+
 .column-list {
 	display: flex;
-	justify-content: space-between;
+	justify-items: center;
 }
 
 .column {
 	padding: 0 1em;
 }
 
-.column:first-child {
+.projects-list {
+	display: flex;
+	justify-content: center;
+}
+
+/*.column:first-child {
 	padding-left: 0;
 }
 
 .column:last-child {
 	padding-right: 0;
-}
+}*/
 
 .table_of_contents-item {
 	display: block;
@@ -365,6 +409,29 @@ p {
 	margin-bottom: 0.5em;
 }
 
+.header-logo-image {
+	position: fixed;
+
+	margin: -12vh 2vw;
+	border: none;
+	border-radius: 0;
+}
+
+.logo-image {
+	position: relative;
+	left: 125;
+
+	border: none;
+	margin: 1.5em 0;
+	border-radius: 0;
+}
+
+.announcement-profile-pic {
+	border: none;
+	margin: 0 0;
+	padding: 0;
+	border-radius: 0;
+}
 .image {
 	border: none;
 	margin: 1.5em 0;
