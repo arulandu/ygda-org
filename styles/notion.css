@@ -31,7 +31,7 @@ body {
 }
 
 .fixed-header{
-	/*text-align: center;*/
+	text-align: center;
 	margin: -10vh -10vw;
 	width: 97%;
 	height: 15vh;
@@ -41,7 +41,7 @@ body {
 }
 
 .header-title-temp{
-	margin: 0;
+	margin: 2% 43%;
 }
 
 
@@ -180,6 +180,7 @@ img {
 
 .projects-list {
 	display: flex;
+	justify-content: center;
 }
 
 /*.column:first-child {
