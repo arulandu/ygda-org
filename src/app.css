@@ -1,0 +1,102 @@
+@import "@fontsource-variable/inter";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-hue: 191; /*201, 110, 310, 264, 350*/
+
+    --color-foreground: var(--color-hue), 87%, 9%;
+    --color-background: var(--color-hue), 87%, 97%;
+    --color-primary: var(--color-hue), 85%, 76%;
+    --color-secondary: var(--color-hue), 86%, 92%; /*used to be L = 89%*/
+    --color-accent: var(--color-hue), 85%, 49%;
+    /* 115, 15%, 56% */
+    /* 60, 1%, 50% */
+  }
+
+  .dark {
+    --color-foreground: var(--color-hue), 87%, 97%;
+    --color-background: var(--color-hue), 87%, 9%;
+    --color-primary: var(--color-hue), 85%, 76%;
+    --color-secondary: var(--color-hue), 87%, 14%; /*used to be L = 9%*/
+    --color-accent: var(--color-hue), 85%, 79%;
+    /* 116, 44%, 86% */
+    /* 60, 2%, 80% */
+  }
+}
+
+:root {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translateX(-1px);
+  }
+
+  20%,
+  80% {
+    transform: translateX(2px);
+  }
+
+  30%,
+  50%,
+  80% {
+    transform: translateX(-4px);
+  }
+
+  40%,
+  60% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes pop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+    opacity: 0;
+  }
+  20% {
+    transform: rotateX(90deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+    opacity: 100;
+  }
+}
