@@ -15,9 +15,10 @@
 	</div>
 	<div class="flex items-center justify-center flex-grow">
 		<div class="text-center">
-			<h1 class="mb-6 scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl">
+			<h1 class="mb-6 scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl animate-bounce">
 				ygda.<span class="text-accent">org</span>
 			</h1>
+			<p class="md:max-w-2xl text-xl">A community of young developers passionate about building games for fun, social impact, and everything in between. </p>
 		</div>
 	</div>
 	<footer class="mb-8 flex flex-col items-center justify-center w-full">
