@@ -6,7 +6,7 @@
 </script>
 
 <Analytics/>
-<div class="app min-h-screen bg-background text-foreground transition-all {$theme.mode}">
+<div class="relative app min-h-screen text-foreground transition-all {$theme.mode}">
 	<main>
 		<slot />
 	</main>
