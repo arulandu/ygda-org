@@ -55,6 +55,7 @@ export const createScene = (el: HTMLCanvasElement, window: Window & typeof globa
 	controls.minPolarAngle = 0.39 * Math.PI;
 	controls.autoRotate = true;
 	controls.autoRotateSpeed = 0.25;
+    controls.enableDamping = true;
 	controls.update();
 
 	camera.position.z = 5;
