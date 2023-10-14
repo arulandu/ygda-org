@@ -21,7 +21,8 @@ export const theme = writable<Theme>({mode: Mode.LIGHT}, (set) => {
       val = JSON.parse(prev)
     } catch(e) {
       console.error(e)
-      val = {mode: window.matchMedia('(prefers-color-scheme: dark)').matches ? Mode.DARK : Mode.LIGHT}
+      // val = {mode: window.matchMedia('(prefers-color-scheme: dark)').matches ? Mode.DARK : Mode.LIGHT}
+      val = {mode: Mode.LIGHT}
     }
 
     set(val)
