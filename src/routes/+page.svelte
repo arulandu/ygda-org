@@ -1,8 +1,7 @@
 <script lang="ts">
 	import Theme from './theme.svelte';
 	import World from './world.svelte';
-	import GameCard from './Game.svelte';
-	import { invalidateAll } from '$app/navigation';
+	import GameCard from './game.svelte';
 	import type { PageData } from './$types.js';
 	import Icon from '@/lib/components/icon.svelte';
 	import Seo from '@/lib/components/Seo.svelte';
