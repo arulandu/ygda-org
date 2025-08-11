@@ -15,8 +15,12 @@
       image_border?: boolean;
       subimages?: string[];
     };
-    export let data: Game;
-    export let images: Record<string, { default: string }>;
+  interface Props {
+    data: Game;
+    images: Record<string, { default: string }>;
+  }
+
+  let { data, images }: Props = $props();
   </script>
 
   <div class="relative transition-colors rounded-lg p-4 -m-4">

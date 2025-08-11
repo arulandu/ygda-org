@@ -1,7 +1,11 @@
 <script lang="ts">
-    export let title: string;
-    export let ogTitle: string | null = null;
-    export let description: string;
+  interface Props {
+    title: string;
+    ogTitle?: string | null;
+    description: string;
+  }
+
+  let { title, ogTitle = null, description }: Props = $props();
   </script>
   
   <svelte:head>

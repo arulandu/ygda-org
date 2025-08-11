@@ -5,7 +5,12 @@
 	import { invalidateAll } from '$app/navigation';
 	import type { PageData } from './$types.js';
 	import Icon from '@/lib/components/icon.svelte';
-	export let data: PageData;
+	import Seo from '@/lib/components/Seo.svelte';
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 
 	// Import games data
 	const projects = import.meta.glob("../games/*.md", {
@@ -20,10 +25,15 @@
 	}
 
 	// Sort projects by date (most recent first)
-	$: projectsByDate = Object.keys(projects).sort(
+	let projectsByDate = $derived(Object.keys(projects).sort(
 		(a, b) => projects[b].date - projects[a].date
-	);
+	));
 </script>
+
+<Seo
+  title="YGDA"
+  description="Young Game Developers Association"
+/>
 
 <div class="relative min-h-screen flex flex-col pointer-events-none">
 	<div class="absolute h-screen top-0 left-0 pointer-events-none">

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	//@ts-nocheck // Can't cast window to any so we skipping this :))
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
@@ -13,14 +15,14 @@
 		window.gtag('config', GA_ID);
 	}
 
-	$: {
+	run(() => {
 		if (browser) {
 			window.gtag('config', GA_ID, {
 				page_title: document.title,
 				page_path: $page.url.pathname
 			});
 		}
-	}
+	});
 </script>
 
 <svelte:head>

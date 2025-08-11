@@ -1,7 +1,11 @@
 <script lang="ts">
     import { marked } from "marked";
   
-    export let source: string;
+  interface Props {
+    source: string;
+  }
+
+  let { source }: Props = $props();
   
     marked.use({
       renderer: {
@@ -18,7 +22,7 @@
       },
     });
   
-    $: html = marked.parse(source);
+    let html = $derived(marked.parse(source));
   </script>
   
   <div class="md-output">

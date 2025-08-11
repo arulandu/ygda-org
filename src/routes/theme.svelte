@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { theme, Mode } from './stores';
 
-	let toggled = $theme.mode == Mode.DARK;
+	let toggled = $state($theme.mode == Mode.DARK);
 
 	const toggle = () => {
 		toggled = !toggled;
@@ -19,12 +19,12 @@
 		class="mr-4 max-w-xl h-2 bg-secondary rounded-lg appearance-none cursor-pointer accent-accent"
 	/> -->
 	<div class="flex justify-center items-center">
-		<span class="" />
+		<span class=""></span>
 		<!-- Switch Container -->
 		<button
 			aria-label="theme toggle"
 			class="w-14 h-7 flex items-center bg-accent rounded-full"
-			on:click={toggle}
+			onclick={toggle}
 		>
 			<!-- Switch -->
 			<div

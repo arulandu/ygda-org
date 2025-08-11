@@ -3,7 +3,7 @@
 	import { createScene } from "./world";
 	import { Mode, theme } from "./stores";
 
-    let el: HTMLCanvasElement;
+    let el: HTMLCanvasElement = $state();
 
     onMount(() => {
         createScene(el, window)
