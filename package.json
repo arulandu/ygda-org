@@ -34,6 +34,15 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@rollup/plugin-yaml": "^4.1.2",
+		"@rollup/pluginutils": "^5.2.0",
+		"@types/js-yaml": "^4.0.9",
+		"@types/marked": "^5.0.2",
+		"@types/strftime": "^0.9.8",
+		"js-yaml": "^4.1.0",
+		"lucide-svelte": "^0.539.0",
+		"marked": "^16.1.2",
+		"strftime": "^0.10.3",
 		"three": "^0.157.0"
 	}
 }
