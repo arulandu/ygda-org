@@ -63,6 +63,7 @@
             src={images[`../games/${data.image}`]?.default}
             alt="{data.title} preview image"
             class:border={data.image_border}
+            style="width: 350px; height: 200px; object-fit: cover;"
           />
         </div>
       </div>
@@ -74,6 +75,7 @@
               <img
                 src={images[`../games/${image}`]?.default}
                 alt="{data.title} subimage"
+                style="width: 350px; height: 200px; object-fit: cover;"
               />
             </div>
           {/each}

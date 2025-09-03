@@ -5,8 +5,8 @@ repo: arulandu/gdhq-22
 live: https://arulandu.itch.io/bussin
 topics: ["C#", "Unity", "Wave Function Collapse", "Game"]
 lead: An infinite school bus drop-off game for GDHQ '22
-image: bussin.png
-subimages: ["bussin-1.png", "bussin-2.png", "bussin-3.png"]
+image: game_images/bussin.png
+subimages: ["game_images/bussin-1.png", "game_images/bussin-2.png", "game_images/bussin-3.png"]
 ---
 
 One of [YGDA](https://ygda.org)'s first games, Bussin' features an enthusiastic

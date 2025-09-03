@@ -15,7 +15,7 @@
 	const projects = import.meta.glob("../games/*.md", {
 		eager: true,
 	}) as any;
-	const images = import.meta.glob("../games/*.{png,jpg,svg}", {
+	const images = import.meta.glob("../games/**/*.{png,jpg,svg}", {
 		eager: true,
 	}) as any;
 
@@ -82,6 +82,8 @@
 		<div class="md:max-w-2xl text-xl text-white text-center">
 			<p class="text-2xl font-extrabold">Join on Discord.</p>
 			<p class="text-xl font-thin">No background experience needed, except being able to RTFM.</p>
+
+			<br><br><p class="text-xl font-thin">Thanks to Jukebox for the coolest <a href="https://www.jukeboxprint.com/custom-stickers">custom stickers!</a></p>
 		</div>
 	</div>
 	<footer class="absolute bottom-8 flex flex-col items-center justify-center w-full pointer-events-auto">
