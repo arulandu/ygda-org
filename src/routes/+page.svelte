@@ -24,8 +24,9 @@
 	}
 
 	// Sort projects by date (most recent first)
-	let projectsByDate = $derived(Object.keys(projects).sort(
-		(a, b) => projects[b].date - projects[a].date
+	let projectsByDate = $derived(
+		Object.keys(projects).sort((a, b) =>
+        new Date(projects[b].date).getTime() - new Date(projects[a].date).getTime()
 	));
 </script>
 
@@ -77,13 +78,15 @@
 		</div>
 	</div>
 
-	<div class="min-h-screen flex items-center justify-center relative bg-[#331905] bg-opacity-80">
+	<div class="min-h-screen flex items-center justify-center relative bg-[#331905] bg-opacity-80 pointer-events-auto">
 		<img src="/images/classroom.jpg" alt="lecture classroom" class="w-full h-full object-cover absolute -z-10">
 		<div class="md:max-w-2xl text-xl text-white text-center">
-			<p class="text-2xl font-extrabold">Join on Discord.</p>
+			<p class="text-2xl font-extrabold">Join on <a class="underline" href="https://tinyurl.com/ygdadiscord">Discord.</a></p>
 			<p class="text-xl font-thin">No background experience needed, except being able to RTFM.</p>
 
-			<br><br><p class="text-xl font-thin">Thanks to Jukebox for the coolest <a href="https://www.jukeboxprint.com/custom-stickers">custom stickers!</a></p>
+			<br><br><p class="text-xl font-thin">
+				Thanks to Jukebox for the coolest <a class=" underline" href="https://www.jukeboxprint.com/custom-stickers">custom stickers!</a>
+			</p>
 		</div>
 	</div>
 	<footer class="absolute bottom-8 flex flex-col items-center justify-center w-full pointer-events-auto">
