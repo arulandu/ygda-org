@@ -73,7 +73,7 @@
 			<div class="w-full aspect-video">
 				<iframe
 					class="w-full h-full rounded-xl shadow-lg"
-					src="https://www.youtube.com/watch?v=YozMl2n1MP8"
+					src="https://www.youtube.com/embed/YozMl2n1MP8"
 					title="Welcome to Young Game Developers Association!"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
