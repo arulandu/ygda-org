@@ -100,10 +100,6 @@
 		<div class="md:max-w-2xl text-xl text-white text-center">
 			<p class="text-2xl font-extrabold">Join on <a class="underline" href="https://tinyurl.com/ygdadiscord">Discord.</a></p>
 			<p class="text-xl font-thin">No background experience needed, except being able to RTFM.</p>
-
-			<br><br><p class="text-xl font-thin">
-				Thanks to Jukebox for the coolest <a class=" underline" href="https://www.jukeboxprint.com/custom-stickers">custom stickers!</a>
-			</p>
 		</div>
 	</div>
 	<footer class="absolute bottom-8 flex flex-col items-center justify-center w-full pointer-events-auto">
