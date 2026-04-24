@@ -47,6 +47,7 @@
 					<Icon src="icons/github.svg" alt="github" href="https://github.com/ygda-org"/>
 					<Icon src="icons/facebook.svg" alt="facebook" href="https://www.facebook.com/groups/2447812362188654"/>
 					<Icon src="icons/discord.svg" alt="discord" href="https://discord.gg/a4TJyFUqaX"/>
+					<Icon src="icons/youtube.svg" alt="youtube" href="https://www.youtube.com/@y.g.d.a/featured"/>
 				</div>
 				<Theme />
 			</div>
@@ -62,6 +63,22 @@
 						and everything in between.
 					</p>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Video Section -->
+	<div class="bg-background pointer-events-auto">
+		<div class="mx-auto max-w-[1152px] px-4 sm:px-6 py-12 flex flex-col items-center">
+			<div class="w-full aspect-video">
+				<iframe
+					class="w-full h-full rounded-xl shadow-lg"
+					src="https://www.youtube.com/watch?v=YozMl2n1MP8"
+					title="Welcome to Young Game Developers Association!"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
 			</div>
 		</div>
 	</div>
