@@ -5,8 +5,8 @@ repo: https://github.com/ygda-org/towerglass
 live: https://ygda-studio.itch.io/towerglass
 topics: ["Godot", "Platformer", "GMTK 2026"]
 lead: Anxiety in a Bottle
-image: game_images/supermarket-1.png
-subimages: ["game_images/supermarket-2.png", "game_images/supermarket-3.png", "game_images/supermarket-4.png"]
+image: game_images/towerglass-1.png
+subimages: ["game_images/towerglass-2.png", "game_images/towerglass-3.png", "game_images/towerglass-4.png"]
 ---
 
 Timekeeper, the sands of time are trapped in the grand tower!
