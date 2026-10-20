@@ -5,8 +5,8 @@ repo: https://github.com/ygda-org/boat-chef
 live: https://ygda-studio.itch.io/blendobar
 topics: ["Godot", "Simulation", "Micro Jam"]
 lead: Big Boating Blender Bar Bonanza!
-image: game_images/supermarket-1.png
-subimages: ["game_images/supermarket-2.png", "game_images/supermarket-3.png", "game_images/supermarket-4.png"]
+image: game_images/blendobar-1.png
+subimages: ["game_images/blendobar-2.png", "game_images/blendobar-3.png", "game_images/blendobar-4.png"]
 ---
 
 You just bought your own little island smoothie bar, but, oh no! A storm destroyed all of your stock!
